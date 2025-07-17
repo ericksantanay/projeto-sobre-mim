@@ -1,0 +1,162 @@
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+    background-color: #e2ded2;
+}
+
+header{
+    height: 90px;
+    background-image: linear-gradient(to top,  #9fa092, rgba(0, 0, 0, 0.165) );
+}
+
+header > h1{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+nav{
+    padding: 10px;
+    background-color:  #9fa092;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+nav > a:hover{
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: underline;
+    border: 1px solid #e2ded2;
+    background-color:  #8f705b;
+    transition: 0.5s;
+}
+
+nav > a:visited{
+   color: #8f705ba2;
+}
+
+nav > a:hover:visited{
+    background-color: rgba(236, 231, 231, 0.65);
+}
+
+nav > a:active{
+    color: red;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+}
+
+article > h2{
+    min-width: 300px;
+    max-width: 1000px; 
+    padding-bottom: 11px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #d6b98f; 
+    margin-bottom: 10px;
+}
+
+article > p{
+    text-indent: 15px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: 20px 15px 20px 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+strong{
+    color: #8f705b;
+}
+
+span> img{    
+    width: 180px;
+    height: 200px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.transação > img:hover{
+    width: 220px;
+    height: 250px;
+    transition:  1s;
+}
+
+.contato{
+    width: 400px;
+    background-color: #8f705b;
+    margin: auto;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+   margin-left: 10px;
+}
+
+.contato > a{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: white;
+   text-decoration: none;
+}
+
+.contato > a:hover{
+    padding: 20px;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.contato > a:hover:visited{
+    color: #9fa092;
+}
+
+.contato > a:hover:active{
+    color: red;
+}
+
+footer{
+    min-width: 300px;
+    max-width: 1000px;
+    height: 30px;
+    color: white;
+    background-color: #8f705b;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p > a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+P > a:hover{
+    transition: 1s;
+    padding: 5px;
+    text-decoration: underline;
+    background-color:#8f705b;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;;
+}
+
+P > a:visited{
+    color: rgba(12, 12, 194, 0.752);
+}
